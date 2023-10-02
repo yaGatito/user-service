@@ -1,0 +1,17 @@
+server:
+  port: 8078
+
+spring:
+  datasource:
+    embedded-database-connection: h2
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:prodDb
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database: h2
+
+management:
+  business:
+    permitted-age: 18
