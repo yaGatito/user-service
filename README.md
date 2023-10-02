@@ -17,9 +17,10 @@ If previous step is done download zip file and extract file to any directory (or
 
 ### Features
 
+- Swagger documentation: use this [endpoint](http://localhost:8078/swagger-ui.html)
+- Postman [collection](https://elements.getpostman.com/redirect?entityId=20487409-609630f8-f0f3-420c-af15-768283e005a7&entityType=collection)
 - REST API
 - H2DB
-- Swagger documentation: use this [endpoint](http://localhost:8078/swagger-ui.html) 
 - Validation
 
 ### Configuration
